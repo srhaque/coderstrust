@@ -24,7 +24,7 @@ body {
 /* slider part starts here */
 
 .sliderWrapper {
-    background: url('../images/mainBg.jpg') no-repeat fixed center top;
+    background: url('../images/headerback.jpg') no-repeat fixed center top;
     background-size: auto;
     padding: 10px 0 87px;
 }
