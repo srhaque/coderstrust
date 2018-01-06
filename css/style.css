@@ -1,0 +1,505 @@
+/*
+    Created on  : Jan 04, 2018, 2:12:24 AM
+    Author      : Saki Rezwanul Haque
+    Batch       : CTG Online 07 (Responsive Web Design)
+*/
+
+/* for mobile responsiveness */
+ @media (min-width: 767px) {  }
+
+/* for tab responsiveness */
+@media (max-width: 1200px) and (min-width: 767px) {  }
+
+/* for desktop responsiveness */
+@media (min-width: 1200px){  }
+
+
+/* Styling starts from here */
+
+body {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* slider part starts here */
+
+.sliderWrapper {
+    background: url('../images/mainbg.jpg') no-repeat fixed center top;
+    background-size: auto;
+    padding: 10px 0 87px;
+}
+
+.navbar {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-header > a > img {
+    width: 80%;
+}
+
+#navbarH > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#navbarH > ul > li > a:hover {
+    color: #d0caca;  
+    transition: all 0.5s;
+    transform: scale(1.05,1.05);
+}
+
+.sliderWrapper > .sliderHeader > h1 {
+    color: #fff;
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 130%;
+    padding-top: 30px;
+    margin-bottom: 1%;
+}
+
+.sliderWrapper > .sliderHeader > p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    white-space: pre-line;
+    padding-bottom: 20px;
+}
+
+.sliderHeader > span > .bOne {
+    text-shadow: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    background: #00b22b;
+    padding: 8px 45px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    margin: 5px 10px;
+}
+
+.sliderHeader > span > .bOne:hover {
+    color: #fff;
+    background: #009324;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    transform: scale(1.0,1.0);
+}
+
+.sliderHeader > span > .bTwo {
+    text-shadow: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    background: transparent;
+    padding: 8px 80px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    margin: 5px 10px;
+}
+
+.sliderHeader > span > .bTwo:hover {
+    color: #fff;
+    background: #3f484c;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    transform: scale(1.0,1.0);
+}
+
+/* learning part starts */
+
+.learnWrapper {
+    margin: 60px auto 50px;
+}
+
+.learnWrapper > .row > .learnContent > .lcMg {
+    padding: 0;
+}
+.learnContent .thumbnail > img {
+    width: 20%;
+}
+
+.learnContent .thumbnail > .caption > h3 {
+    font-family: "raleway" , semi-bold;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.learnContent .thumbnail > .caption > p {
+    color: #827c7c;
+    font-weight: 300;
+    margin: 0;
+}
+
+.learnContent .thumbnail {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    opacity: 0.8;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.learnContent .thumbnail:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* tool part starts here */
+
+.toolWrapper {
+    background-color: #fafafa;
+}
+
+.toolContent {
+    margin: 60px auto;
+}
+
+.toolContent > .imgTool > img {
+    opacity: 0.9;
+    transform: scale(1.0,1.0);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+
+}
+
+.toolContent > .imgTool > img:hover {
+    -webkit-transition: all 1.2s;
+    -moz-transition: all 1.2s;
+    transition: all 1.2s;
+    opacity: 1;
+    transform: scale(0.9,0.9);
+}
+
+.textTool > h1 {
+    color: #3a3737;
+    font-size: 28px;
+    font-family: 'raleway' , semi-bold;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 20px 0 0;
+}
+
+.textTool > p {
+    color: #827c7c;
+    font-weight: 300;
+    font-size: 17px;
+    margin: 20px auto 30px;
+}
+
+.textTool > span > .bThree {
+    text-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    background: #0483D3;
+    padding: 10px 80px;
+    border-radius: 0;
+}
+
+.textTool > span > .bThree:hover {
+    color: #fff;
+    background: #0370b5;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    transform: scale(1.0,1.0);
+}
+
+/* customized path satrts here */
+
+.custpWrapper {
+    padding: 50px 15px 70px;
+}
+
+.pathRight {
+    margin-top: 60px;
+    padding-right: 0;
+}
+.pathRight > .row > .prOne > img {
+    float: right;
+    background: #e83200;
+    padding: 34px 12px;
+    border: 1px solid transparent;
+}
+
+.pathRight > .row > .prOne > .prtOne {
+    background: #fafafa;
+    padding: 6px 0;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 15px;
+    margin-left: 4%;
+}
+
+.pathRight > .row > .prTwo > .prtTwo {
+    background: #fafafa;
+    padding: 6px 0;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 15px;
+    margin-left: 8%;
+}
+
+.pathRight > .row > .prThree > .prtThree {
+    background: #fafafa;
+    padding: 6px 0;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 15px;
+    margin-left: 12%;
+}
+
+.pathRight > .row .proText > h4 {
+    font-family: 'raleway' , semi-bold;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 67px;
+    margin: 14px;
+}
+
+.pathRight > .row .proText > h5 {
+    color: #827c7c;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 83px 12px 0;
+    margin: 0px;
+}
+
+.pathRight > .row > .prTwo > img {
+    float: right;
+    background: #9635BB;
+    padding: 34px 12px;
+    border: 1px solid transparent;
+}
+
+.pathRight > .row > .prThree > img {
+    float: right;
+    background: #00b22b;
+    padding: 34px 12px;
+    border: 1px solid transparent;
+}
+
+.pathContent > .pathRight > .row > .prOne {
+    transform: scale(0.9,0.9);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.pathContent > .pathRight > .row > .prOne:hover {
+    -webkit-transition: all 1.3s;
+    -moz-transition: all 1.3s;
+    transition: all 1.3s;
+    transform: scale(1.0,1.0);
+}
+
+.pathContent > .pathRight > .row > .prTwo {
+    transform: scale(0.9,0.9);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.pathContent > .pathRight > .row > .prTwo:hover {
+    -webkit-transition: all 1.3s;
+    -moz-transition: all 1.3s;
+    transition: all 1.3s;
+    transform: scale(1.0,1.0);
+}
+
+.pathContent > .pathRight > .row > .prThree {
+    transform: scale(0.9,0.9);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.pathContent > .pathRight > .row > .prThree:hover {
+    -webkit-transition: all 1.3s;
+    -moz-transition: all 1.3s;
+    transition: all 1.3s;
+    transform: scale(1.0,1.0);
+}
+
+/* finance part stars here */
+
+.financeWrapper {
+    color: #fff;
+    background: #0483d3;
+    padding: 30px 15px 60px;
+}
+
+.financeWrapper > .row > .financeContent > h1 {
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: pre-line;
+    margin: 0px;
+}
+
+.financeWrapper > .row > .financeContent > p {
+    font-weight: 300;
+    white-space: pre-line;
+    margin-bottom: 25px;
+}
+
+.financeWrapper > .row > .financeContent > span > .bFive {
+    text-shadow: none;
+    border: none;
+    color: #0483d3;
+    font-size: 15px;
+    font-weight: 400;
+    background: #fff;
+    padding: 10px 80px;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.financeWrapper > .row > .financeContent > span > .bFive:hover {
+    background: #cde6f6;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    transform: scale(1.0,1.0);
+}
+
+/* trial part stars here */
+
+.trialWrapper > .row > .trialContent > h1 {
+    font-weight: 600;
+    line-height: 1.2;
+    white-space: pre-line;
+    padding-top: 60px;
+    margin: 0;
+}
+
+.trialWrapper > .row > .trialContent > p {
+    color: #827c7c;
+    font-weight: 300;
+    white-space: pre-line;
+    margin-bottom: 25px;
+}
+
+.trialWrapper > .row > .trialContent > span > .bSix {
+    text-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    background: #00b22b;
+    padding: 10px 80px;
+    border-radius: 0;
+}
+
+.trialWrapper > .row > .trialContent > span > .bSix:hover {
+    background: #009324;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    transform: scale(1.0,1.0);
+}
+
+.trialWrapper > .row > .trialContent > h5 {
+    color: #827c7c;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+
+/* media starts here */
+
+.mediaWrapper {
+    background: #fafafa;
+    padding: 60px 15px 30px;
+}
+
+.mediaContent {
+    padding: 0;
+}
+
+.mediaContent > .usaW > a > img {
+    margin-top: -10px;
+}
+
+.mediaContent a > img {
+    padding-bottom: 20px;
+}
+
+/* upper footer starts here */
+
+.upftWrapper > .row > .upftContent {
+    padding: 60px 0;
+}
+
+.upftContent ul > li > h4 {
+    color: #787878;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.upftContent ul > li > a {
+    text-decoration: none;
+    color: #787878;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.upftContent ul > li > a:hover {
+    color: #0483d3;
+    font-weight: 400;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    transition: all 0.8s;
+    transform: scale(1.0,1.0)
+}
+
+.form-group > label {
+    color: #787878;
+    margin-bottom: 15px;
+}
+
+.form-group .form-control {
+    height: 43px;
+    font-weight: 200;
+}
+
+.input-group-addon .fa-envelope {
+    color: #0483d3;
+}
+
+form > .bSeven {
+    width: 100%;
+    text-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    background: #0483D3;
+    padding: 12px 0;
+}
+
+form > .bSeven:hover {
+    color: #fff;
+    background: #0370b5;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    transform: scale(1.0,1.0);
+}
+
+/* lower footer starts here */
+
+.lftWrapper > .row > .lftContent > small {
+    color: #222;
+    padding: 15px;
+}
+
+/* Styling ends here*/
